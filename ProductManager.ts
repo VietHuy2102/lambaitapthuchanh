@@ -36,7 +36,7 @@ export class ProductManager {
         }
     }
 
-    changeInfo(id: number, name: string, type: string, price: number, quantity: number, dateCreate: string, describe: string){
+    changeInfo(id: number, name: string, type: string, price: number){
         for (let i = 0; i < this.listProducts.length; i++) {
             if(this.listProducts[i].id==id){
                 this.listProducts[i].name=name;

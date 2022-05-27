@@ -32,7 +32,7 @@ var ProductManager = /** @class */ (function () {
             }
         }
     };
-    ProductManager.prototype.changeInfo = function (id, name, type, price, quantity, dateCreate, describe) {
+    ProductManager.prototype.changeInfo = function (id, name, type, price) {
         for (var i = 0; i < this.listProducts.length; i++) {
             if (this.listProducts[i].id == id) {
                 this.listProducts[i].name = name;
