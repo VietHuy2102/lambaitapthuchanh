@@ -7,7 +7,7 @@ export class ProductManager {
     }
 
     add(id: number, name: string, type: string, price: number,) {
-        let product= new Product(id,name,type,price,)
+        let product= new Product(id,name,type,price)
         this.listProducts.push(product);
     }
 
